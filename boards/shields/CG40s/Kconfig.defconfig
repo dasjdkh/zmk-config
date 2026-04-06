@@ -1,0 +1,22 @@
+if SHIELD_CG40s_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "CG40s Dongle"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+	
+config ZMK_USB
+	default y
+endif
+
+if SHIELD_CG40s_LEFT || SHIELD_CG40s_RIGHT || SHIELD_CG40s_DONGLE
+
+config ZMK_SPLIT
+	default y
+
+config ZMK_BLE
+	default y
+	
+
+endif

@@ -1,0 +1,12 @@
+file_format: "1"
+id: CG40s
+name: CG40s
+type: shield
+url: https://github.com/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - CG40s_left
+  - CG40s_right
+  - CG40s_dongle
